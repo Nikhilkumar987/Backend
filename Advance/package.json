@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is new folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikhilkumar987/Backend.git"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "nikhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikhilkumar987/Backend/issues"
+  },
+  "homepage": "https://github.com/Nikhilkumar987/Backend#readme"
+}
