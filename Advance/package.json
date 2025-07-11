@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "this is new folder",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/Nikhilkumar987/Backend/issues"
   },
-  "homepage": "https://github.com/Nikhilkumar987/Backend#readme"
+  "homepage": "https://github.com/Nikhilkumar987/Backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
 }
